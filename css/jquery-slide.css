@@ -1,0 +1,24 @@
+/* banner css */
+.slideBox{max-height:4.30rem; overflow:hidden; position:relative ;width:100%}
+.slideBox .hd{ height:0.15rem; overflow:hidden; position:absolute; right:0.05rem; bottom:0.05rem; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:2rem;  width:0.15rem; height:0.15rem; line-height:0.14rem; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:100%; max-height:4.30rem; display:block;  }
+/* 向上滚动**/
+.txtScroll-top {
+    overflow: hidden;
+    position: relative;
+}
+.txtScroll-top .infoList li {
+    line-height: 21px;
+}
+.txtScroll-top .bd {
+    padding-top: 0.15rem;
+    margin-top: 0.15rem;
+}
+.on{
+    background:red
+}

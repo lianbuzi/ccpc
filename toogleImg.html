@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .toggle-slider{
+                position: relative;
+                height: 643px;
+                display: flex;
+            }
+
+            .t-s-container{
+                width:128px;
+                height:100%;
+                transition:all 0.3s ease-in-out ;
+                background-repeat: no-repeat;
+            }
+            .ts1{
+                background-image:url('images/toogle-slider/test1.png');
+            }
+            .ts2{background-image:url('images/toogle-slider/test2.png');}
+            .ts3{
+                background-image:url('images/toogle-slider/test3.png');
+            }
+            .active{
+                width:308px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="toggle-slider">
+
+                <div class="t-s-container ts1 active">
+                </div>
+                <div  class="t-s-container ts2">
+                </div>
+                <div  class="t-s-container ts3">
+                </div>
+
+        </div>
+    </body>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script>
+        $('.t-s-container').hover(function(){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+</html>

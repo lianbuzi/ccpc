@@ -1,0 +1,968 @@
+@import "common.css";
+@import "jquery-slide.css";
+.banner01{
+    background:url(../images/home/banner/banner1.jpg) no-repeat;
+}
+.slideBox .bd li{
+    height:4.20rem;overflow: hidden;
+    background-position: center top;
+}
+.banner-a{
+    width: 100%;
+    display: block;
+    height: 100%;
+    cursor: default;
+}
+/**雷军 part*/
+.sub-content{
+    width:7.50rem;
+    margin-top: 0.11rem;
+    position: relative;
+}
+.h3-content{
+    width: 3.47rem;
+    height:1.18rem;
+    box-shadow:0 0 0.10rem rgba(0,0,0,0.2);
+    margin: 0.04rem 0.25rem 0.04rem 0.02rem;
+}
+.h3 b{
+    font-size:0.22rem
+}
+.h3-content .h3{
+    margin-right: 0.19rem;
+    margin-top: 0.33rem;
+}
+.h3-content p{
+    font-size:0.14rem;
+    padding-top:0.19rem
+}
+.h3-content img{
+    margin-top:0.03rem;
+    width:1.19rem
+}
+.h3-content:last-child img{
+    margin-top:0.17rem;
+}
+/**报价par1**/
+
+.quto-contnet-top{
+    top: -3.70rem;
+    left: 7.50rem;
+
+}
+.p-title{
+    color:#02ad4d;
+    font-size:0.27rem;
+    position: relative;
+}
+.p-title p{
+    font-size:0.16rem;
+    line-height: 2;
+}
+.p-content{
+    text-align: center;
+    padding: 0.10rem 0.30rem;
+    margin-top: 0.30rem;
+}
+input[type=text],input[type=tel]{
+    width:3.20rem
+}
+.p-tempw{
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+}
+.slider-top{
+    margin:29px 0;
+    border-top:1px  dotted #dcdcdc;
+    color:#666;
+}
+/**setp1 车车险更划算**/
+section.center-wrap{
+    margin-top:0.94rem
+}
+.step-title{
+    position: relative;
+}
+.honor-wrap .step-title,.media-wrap-bg .step-title{
+    margin-bottom: 0.50rem
+}
+.h2-title{
+    color:#333;
+    font-size:0.30rem;
+    margin-bottom: 0.10rem;
+    font-weight: normal;
+}
+
+.bar-line{
+    position: relative;
+}
+.bar-line img{
+    position: absolute;
+    top: -0.02rem;
+    height: 0.08rem;
+}
+.step-item{
+    width:2.90rem;
+    margin: 0.26rem 0.15rem 0.19rem 0;
+    display: inline-block;
+}
+
+.sub-item-bar{
+    overflow: auto;
+    zoom: 1;
+    padding:0.24rem 0.10rem
+}
+.sub-item-bar div{
+    min-width:1.50rem
+}
+
+.sub-item-bar b{
+    font-size:0.18rem
+}
+.step-item i{
+    font-size: 0.42rem;
+    color:#999
+}
+.step-item p{
+    line-height: 2;
+}
+.step-item .sub-item{
+    padding:0 0.24rem
+}
+.step-item .sub-item-last{
+    border-top: 1px solid #f0f0f0;
+}
+.item-right-jus{
+    width:2.70rem;
+    margin-right:0;
+    color:#fff;
+}
+
+.ghs .content-p{
+    height: 3.8rem;
+    background: url(../images/home/husuan-bg.png) no-repeat;
+    background-size: 100% 380px;
+    padding: 0 0.24rem;
+    font-size: 0.18rem;
+
+}
+.ghs .content-p span{
+    font-size:0.22rem;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+    padding-right: 0.05rem;
+}
+.ghs p{
+    color:#333;
+}
+.ghs-title{
+    font-size:0.22rem;
+    color:#333;
+    line-height: 2;
+    padding-top: 0.22rem;
+}
+.ghs-title .f-zi{
+    font-size:0.31rem;
+    color:#8d58ca;
+    letter-spacing: 0.02rem;
+    padding-right: 0.05rem;
+}
+.ghs ol{
+    max-height: 2.58rem;
+    overflow: hidden;
+}
+.ghs .item-buttom{
+    font-size: 0.12rem;
+    padding: 0.15rem 0.12rem;
+    margin-top: 0.10rem;
+    z-index: 2;
+}
+.ghs .item-buttom .in-line{
+    position: relative;
+    z-index: 3;
+}
+.ghs .item-buttom .red{
+    color:#a83737;
+}
+.ghs ol .f-right{
+    min-width:1.40rem;
+    font-size:0.14rem
+}
+.ghs ol li{
+    margin:0.15rem 0;
+    font-size:0.16rem;
+}
+.ghs ol b{
+    font-size:0.20rem
+}
+.ghs strong{
+    font-size:0.28rem
+}
+.ghs li img{
+    width:2.9rem
+}
+.step-group{
+    position: relative;
+}
+.huabian1{
+    position: absolute;
+    right: -0.50rem;
+    top: -0.88rem;
+    z-index: 1;
+    width: 1.87rem;
+}
+/**报价部分**/
+.quto-part{
+    width:100%;
+    height:2.38rem;
+    background:#ececec;
+    margin-top: 0.60rem;
+    text-align: left;
+}
+.quto-part .center-wrap{
+    padding-top: 0.46rem;
+}
+.quto-part strong{
+    font-size:0.28rem
+}
+.quto-part2 input{
+    display: inline-block;
+    margin-right:0.69rem;
+    margin-top:0.50rem
+}
+/**一站式购买**/
+.quto-contnet2{
+    margin:0.40rem 0;
+    padding-bottom: 0.30rem;
+}
+.quto-contnet2 li{
+    float: left;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    height: 2.58rem;
+    border-right:0;
+    position: relative;
+}
+.quto-contnet2 li:last-child{
+    border-right:1px solid #ddd;
+}
+.quto-group:last-child li{
+    border-top:0
+}
+.quto-item{
+    width: 2.54rem;
+    margin: 0rem 0.21rem;
+    text-align: center;
+    min-height: 1.85rem;
+    position: relative;
+}
+.quto-item img{
+    margin-top: 0.55rem;
+    width:1.6rem
+}
+.quto-mark{
+    position: absolute;
+    top: 0;
+    left:0.13rem;
+    width:0.33rem
+}
+.quto-mark2{
+    top:0.10rem;
+    left: 1.94rem;
+    width:1.02rem;
+}
+.quto-item article{
+    height: 0.55rem;
+    position: absolute;
+    width: 100%;
+    top: 1.16rem;
+    line-height: 0.55rem;
+}
+.quto-group:last-child article{
+    line-height: 0.25rem;
+}
+
+.line-single{
+    line-height: 0.53rem;
+}
+.quto-btn{
+    box-sizing: border-box;
+    width:1.30rem;
+    border:0.02rem solid #02ad4d;
+    color:#02ad4d;
+    font-weight: bold;
+    height:0.40rem;
+    line-height: 0.36rem;
+    text-align: center;
+    font-size:0.18rem;
+    cursor: pointer;
+    margin: auto;
+}
+.quto-btn a{
+    color:#02ad4d
+}
+.buy-step-bg{
+    background:#f0f0f0;
+    padding-top:0.24rem
+}
+
+.buy-step{
+    margin-top:0.15rem;
+    margin-bottom: 0.50rem;
+}
+.buy-step-bg  img{
+    width:11.81rem
+}
+.chezhu-wrap{
+    height: 6.30rem;
+    overflow: hidden;
+    margin-top:-0.40rem
+}
+.lipei-wrap-bg{
+    background:#f6f6f6;
+    margin-top:-0.10rem;
+    padding-top: 0.20rem;
+}
+.lipei-wrap{
+    margin-top:0.10rem
+}
+.chezhu-wrap-bg{
+    margin-top:0.91rem
+}
+.chezhu-left{
+    width: 5.47rem;
+    background:#8d58ca;
+    padding:0.42rem 0 0.60rem 0.48rem;
+    margin-top: 0.70rem;
+}
+.chezhu-group li{
+    margin-top:0.18rem;
+    width:2.58rem
+}
+.chezhu-group img{
+    width:3.05rem;
+    height:1.35rem;
+}
+.chezhu-group img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.chezhu-photo{
+    position: absolute;
+    right:4.14rem;
+    bottom: 0rem;
+    z-index:1;
+    transition: all 1s ;
+    animation: showType 1s;
+}
+.chezhu-wrap li img{
+    width:3.05rem
+}
+.chezhu-right{
+    background: #ffc027;
+    color: #fff;
+    width: 4.40rem;
+    padding: 0.75rem 0.65rem 0.30rem 1.00rem;
+    font-size: 0.18rem;
+    line-height: 0.30rem;
+    height: 2.75rem;
+    position: relative;
+}
+.chezhu-right strong{
+    font-size:0.40rem;
+
+}
+.chezhu-right p{
+    font-weight: bold;
+    line-height: 0.60rem;
+    display: none;
+}
+.chezhu-name{
+    margin:0.26rem 0.10rem 0.20rem 0;
+    width:1.15rem
+}
+.chezhu-right .t-right{
+    margin-right: 0.30rem;
+    margin-top: 0.35rem;
+    position: absolute;
+    right: 0.31rem;
+    text-align: center;
+    bottom: 0.25rem;
+}
+.chezhu-tip{
+    position: absolute;
+    font-size:0.18rem;
+    background:url(../images/home/tip.png) no-repeat ;
+    width:3.87rem;
+    height:2.11rem;
+    background-size: contain;
+    right: 0.63rem;
+    top: 4.07rem;
+    z-index: 2;
+    transition: all 1s ;
+    animation: showTip 1s;
+}
+.tip-contain{
+    line-height: 1.7;
+    padding: 0 0.35rem;
+    display: table;
+    height: 1.65rem;
+    margin-top: 0.39rem;
+
+}
+.tip-contain span{
+    display: table-cell;
+    vertical-align:middle;
+}
+.chezhu-content{
+    margin: auto;
+    text-align: left;
+    margin-top: 0.26rem;
+}
+/**理赔经历**/
+.lipei-exp{
+    width: 560px;
+    font-size: 0.18rem;
+    color: #fff;
+    background: #ff572c;
+    height: 690px;
+    overflow: hidden;
+}
+.lipei-exp li img{
+    width:560px
+}
+.slider-lipei{
+    padding:0.50rem 0.30rem;
+    line-height: 1.7;
+    display: none;
+}
+.slide-article{
+    padding:0.30rem 0
+}
+.s-button{
+    font-size:0.19rem
+}
+.s-button i{
+    padding:0 0.20rem
+}
+.lipei-charge{
+    background: #fff;
+    color: #ed6771;
+    padding: 0.01rem 0.16rem;
+    border-radius: 0.25rem;
+}
+.slide-page{
+    text-align: center;
+    width: 1.00rem;
+    margin: auto;
+    padding-bottom: 35rem;
+}
+.slide-page li{
+    display: inline-block;
+    width:0.08rem;
+    height:0.08rem;
+    background:#fff;
+    margin-left:0.15rem
+}
+.slide-page i{
+    float: left;
+}
+.sub-title{
+    line-height: 3;
+}
+.slide-page li.on{
+    background:url('../images/home/qi.png') no-repeat;
+    width:18px;height:18px
+}
+
+.lipei-button-l{
+    margin: 0.15rem 1.00rem 0 0.50rem;
+}
+.lipei-fa{
+    width: 6.05rem;
+    padding-top: 0.35rem;
+    height: 6.00rem;
+    padding-bottom: 0.57rem;
+}
+.lipei-fa img{
+    width:1.18rem;
+}
+.fa-right{
+    width:4.05rem;
+    font-size:0.16rem;
+    margin-right:0.30rem;
+    position: relative;
+}
+.lipei-fa li{
+    margin:  0 0 0.35rem 0.25rem;
+    line-height: 1.5;
+}
+.lipei-fa-right{
+    margin-right:0.09rem
+}
+.fa-title{
+    font-size:0.24rem;margin-bottom: 0.10rem;
+    font-weight: bold;
+    position: relative;
+}
+.hot:after{
+    position: absolute;
+    right: 0.05rem;
+}
+.fa-right .mark-tip{
+    padding:0.03rem 0.18rem
+}
+.fa-buttom{
+    margin-top: 0.27rem;
+
+}
+.fa-buttom .f-right{
+    font-size:0.18rem;
+    color:#ec633d;
+    margin-right:0.05rem
+}
+.fa-right .tip{
+    padding:0.02rem 0.09rem ;
+
+}
+.fa-right .tip-content {
+    position: absolute;
+    top: 1rem;
+    left: 3.07rem;
+}
+.toggle-slider{
+    position: relative;
+
+}
+.t-s-container{
+    width:1.28rem;
+    height:6.44rem;
+    transition:all 0.3s ease-in-out ;
+    background-repeat: no-repeat;
+    float:left;background-size: auto 6.64rem;
+    background-position: -1.80rem 0;
+    margin-right: 0.05rem;
+
+}.ts1{
+     background-image:url('../images/home/slider/01.jpg');
+ }
+.ts2{background-image:url('../images/home/slider/02.jpg');}
+.ts3{
+    background-image:url('../images/home/slider/03.jpg');
+}
+.toggle-slider .active{
+    width:3.08rem;
+    background-position: 0rem 0;
+}
+
+.psp-title{
+    line-height: 1.2;
+    width: 0.10rem;
+    word-wrap: break-word;
+    font-size: 0.22rem;
+    margin: 0.45rem 0.30rem;
+    float: right;
+    text-shadow: 0 0 0.6rem #000;
+}
+
+.psp-sweep{
+    width:100%;
+    height:100%;
+    /*background:rgba(0,0,0,0.3);*/
+
+}
+.QA{
+    position: relative;
+    padding: 0.55rem;
+    color: #4b6dcc;
+    padding-left: 0.84rem;
+    margin-bottom: 0.10rem;
+    background: #f6f6f6;
+    z-index: 0;
+}
+.QA .strong-title{
+    margin-left: 0.25rem;
+}
+
+.QA ul{
+    margin-top:0.57rem
+}
+.QA li{
+    background: url(../images/home/qi2.png) no-repeat;
+    background-size: 18px;
+    padding-left: 28px;
+    background-position: left center;
+    font-size: 0.22rem;
+    line-height: 2;
+}
+.QA a{
+    color:#333
+}
+.huabian2{
+    position: absolute;
+    left: -1.73rem;
+    top: 0.85rem;
+    z-index: 10;
+    width:3.02rem
+}
+.right-qi{
+    position: absolute;
+    right: -3.58rem;
+    top: -1.15rem;
+    z-index: 0;
+    width:5.32rem
+}
+/**车险荣誉*/
+.honor-c1 li{
+    width:2.79rem;
+    margin-right:0.23rem;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 0.10rem;
+}
+.honor-c1 li img{
+    width:2.79rem;
+}
+.honor-c1 .regard-name{
+    height: 0.58rem;
+    line-height: 0.58rem;
+    background: #c9c9c9;
+    font-size: 0.24rem;
+    color:#fffefe;
+    text-align: center;
+}
+.rd-active .regard-name{
+    background: #8d58ca;
+}
+.honor-c1 li:last-child{
+    margin-right:0
+}
+.honor-c1 article{
+    padding:0.20rem 0.20rem;
+    line-height:1.5;
+    height: 0.90rem;
+}
+.honor-c2{
+    padding:0.44rem 0 0.38rem 0;
+    background: #eee;
+    margin-top:0.80rem
+}
+.honor-c2 img{
+    box-shadow: 0 0.01rem 0.10rem rgba(0,0,0,0.2);
+}
+.honor-c2 .r-name{
+    font-size: 0.16rem;
+    font-weight: bold;
+    color: #fff;
+    background: #c9cccb;
+    line-height: 0.40rem;
+    margin-top: 0.20rem;
+}
+.honor-c2 li{
+    float: left;
+    width:1.70rem;
+    text-align: center;
+    cursor: pointer;
+}
+.honor-hr img{
+    margin-right:0.42rem;
+    margin:auto;
+    height:1.8rem
+}
+.honor-c3 img{
+    margin-right:0.50rem;
+    height:1.96rem;
+}
+[name='dsy']{
+    width:3.85rem;
+}
+[name='gx']{
+    width:4.47rem;
+}
+[name='xxp']{
+    width:5.38rem;
+}
+[name='myf']{
+    width:4.49rem;
+}
+.honor-c1 img:last-child,.honor-c2 img:last-child,.honor-c3 img:last-child{
+    margin-right: 0;
+}
+.honor-c3{
+    background:#ffc027;
+    padding: 0.50rem 0;
+    border-bottom: 0.15rem solid #ff562a;
+}
+
+.acc-active .r-name{
+    background:#02ad4d
+}
+
+.mark-img{
+    position: absolute;
+    top: -0.32rem;
+    left: 2.85rem;
+    width:0.9rem
+}
+.f-purple{
+    color:#8d58ca;
+}
+.f-blue{
+    color:#4b6dcc
+}
+/**媒体查询*/
+.media-wrap-bg{
+    background: #f6f6f6;
+    margin-top: 1.30rem;
+    padding:0.62rem 0 1.00rem 0;
+    margin-bottom: 0.80rem;
+}
+.f-fr {
+    float: right;
+}
+.m-cont {
+    width: 100%;
+    min-width: 12.00rem;
+    overflow: hidden; }
+
+.m-select {
+    overflow: hidden;
+    padding-bottom: 0.68rem; }
+
+.m-select .select-list {
+    margin-left: -0.20rem; }
+
+.m-select .select-list li {
+    overflow: hidden;
+    width: 2.20rem;
+    float: left;
+    margin-left: 0.25rem; }
+
+.m-select .select-list .img {
+    width: 2.20rem;
+    height: 1.48rem;
+    border-radius: 0.12rem;
+    overflow: hidden;
+    margin-bottom: 0.24rem; }
+
+.m-select .select-list .text1 {
+    color: #000000;
+    font-size: 0.20rem;
+    line-height: 0.28rem;
+    margin-bottom: 0.24rem; }
+
+.m-select .select-list .text2 {
+    font-size: 0.14rem;
+    color: #777;
+    line-height: 0.24rem; }
+
+
+.m-media .media-list {
+    height: 3.46rem; }
+
+.m-media .media-left li {
+    padding: 0rem 0.16rem;
+    background: #fff;
+    transition: 0.2s;
+    margin:0.01rem;
+    border-bottom:1px solid #eee;
+}
+
+.m-media .media-left li:hover {
+    box-shadow: 0 0 0.05rem 0.03rem #e6e6e6; }
+
+.m-media .media-left .img {
+    width: 0.74rem;
+    height: 0.62rem;
+    padding: 0.04rem 0.06rem;
+    display: table-cell;
+    vertical-align: middle; }
+
+.m-media .media-left .img img {
+    vertical-align: middle;
+    width: 0.74rem;
+    height: 0.60rem; }
+
+.m-media .media-left a {
+    color: #000000;
+    display: block; }
+
+.m-media .media-left span {
+    display: inline-block;
+    display: table-cell;
+    max-width: 2.90rem;
+    white-space: nowrap;
+    line-height: 0.65rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 2.90rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.13rem;
+}
+
+.m-media .media-right {
+    height: 100%;
+}
+
+.m-media .media-right li:hover,.m-media .media-right li:first-child {
+    box-shadow: 0 0 0.05rem  #ccc;
+    font-size: 0.22rem;
+    background:#ffc027;
+}
+.m-media .media-right li:hover a,.m-media .media-right li:first-child a,.m-media .media-right li:hover i,.m-media .media-right li:first-child i{
+    color:#fff;
+}
+.m-media .media-right li a {
+    color: #000000; }
+
+.m-media .media-right li {
+    width: 7.20rem;
+    background: #fff;
+    margin-bottom: 0.26rem;
+    overflow: hidden;
+    clear: both;
+    box-shadow: 0 0 0.20rem rgba(0,0,0,0.2);
+}
+
+.m-media .media-right .img {
+    float: left;
+    overflow: hidden; }
+
+.m-media .media-right .img img {
+    width: 2.70rem;
+    height: 2.00rem; }
+
+.m-media .media-right .img .logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 0.60rem;
+    height: 0.30rem;
+    background: rgba(255, 255, 255, 0.7); }
+
+.m-media .media-right .text {
+    margin-left: 3.18rem;
+    position: relative;
+    width: 3.70rem;
+    height: 2.00rem;
+}
+
+.m-media .media-right .t {
+    font-size: 0.18rem;
+    width: 3.00rem;
+    line-height: 0.28rem;
+    padding-top: 0.24rem; }
+
+.m-media .media-right .b {
+    position: absolute;
+    bottom: 0.13rem;
+    width: 100%;
+    font-size: 0.18rem; }
+
+.m-media .media-right .b i {
+    display: block;
+    width: 0.16rem;
+    height: 0.16rem;
+    text-align: center;
+    line-height: 0.18rem;
+    color: #48BA63;
+    /* background: #48BA63; */
+    border-radius: 50%;
+    font-size: 0.20rem;
+    vertical-align: top;
+    float: right;
+}
+.u-tit {
+    text-align: center;
+    padding-top: 0.42rem;
+    padding-bottom: 0.46rem;
+}
+
+.u-tit .text {
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    z-index: 1;
+    width: 100%;
+}
+.u-tit .line {
+    display: block;
+    content: ' ';
+    width: 100%;
+    height: 1rem;
+    background: #AAAAAA;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+    z-index: 0;
+}
+.s-bg2 {
+    background: #F8F8F8;
+}
+.u-tit .text span {
+    padding: 0 0.40rem;
+    color: #AAAAAA;
+}
+
+.f-fl {
+    float: left;
+}
+/**攻略**/
+section.gonglue-wrap-bg{
+    margin-top:1.13rem;
+}
+.gonglue-wrap-bg .wrap-container{
+    margin-top:0.90rem;
+}
+section.ghs{
+    margin-top: 0.64rem;
+}
+@keyframes showType {
+    0% {opacity: 0;bottom:-1.50rem}
+    100%{opacity: 1;bottom:0rem}
+}
+@keyframes showTip {
+    0% {opacity: 0;right:0}
+    100%{opacity: 1;right:0.63rem}
+}
+@media screen and (min-width:1300px) and (max-width:1900px){
+    .slideBox .bd li{
+        background-size: cover;
+    }
+    .honor-c1 article{
+        height: 1.10rem;
+        padding: 0.1rem 0.20rem 0.2rem;
+    }
+    /*.ghs .item-buttom{*/
+    /*padding: 0.15rem 0.09rem;*/
+    /*}*/
+    /*.chezhu-left{*/
+    /*width:547rem;*/
+    /*}*/
+    .lipei-exp,.lipei-exp li img{
+        width:488px;
+    }
+    .lipei-exp{
+        height:588px
+    }
+    .slider-top{
+        margin: 0.22rem 0;
+    }
+    .msg-box article{
+        line-height: 1.5;
+    }
+
+    .msg-box .p-close{
+        margin-top: 0.27rem;
+    }
+    .sale-girl{
+        top: -1.93rem;
+    }
+    .quto-contnet-top{
+        top: -3.55rem;
+    }
+}
